@@ -5,6 +5,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.Date;
 import java.util.List;
 
 @Builder
@@ -18,4 +19,6 @@ public class CreateQuotationDTO {
     private List<CreateQuotationDetailDTO> createQuotationDetailDTOList;
     private String note;
     private String status;
+    private Date quotationDate;
+    private Date dueDate;
 }
