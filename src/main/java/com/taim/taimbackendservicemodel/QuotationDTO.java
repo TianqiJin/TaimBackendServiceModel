@@ -16,7 +16,7 @@ import java.util.List;
 public class QuotationDTO {
     private long id;
     private String quotationId;
-    private Date createdDate;
+    private Date quotationDate;
     private Date dueDate;
     private BigDecimal subtotal;
     private BigDecimal total;
@@ -25,8 +25,9 @@ public class QuotationDTO {
     private CustomerDTO customer;
     private String transactionType;
     private List<TransactionDetailDTO> transactionDetails;
-    private long refId;
+    private String refId;
     private String status;
     private String note;
-
+    private String billToAddress;
+    private String billFromAddress;
 }

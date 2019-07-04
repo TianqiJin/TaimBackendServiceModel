@@ -23,9 +23,6 @@ public class TransactionDetailDTO {
     private BigDecimal discount;
     private BigDecimal unitPrice;
     private List<TaxInfoDTO> taxInfos;
-    private BigDecimal deliveredQuantity;
-    private BigDecimal toDeliveryQuantity;
     private BigDecimal subtotal;
     private String note;
-    private PackageInfoDTO packageInfo;
 }

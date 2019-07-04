@@ -21,4 +21,7 @@ public class CreateQuotationDTO {
     private String status;
     private Date quotationDate;
     private Date dueDate;
+    private String billFromAddress;
+    private String billToAddress;
+    private boolean submit;
 }
